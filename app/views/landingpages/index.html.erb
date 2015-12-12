@@ -1,0 +1,25 @@
+<div class="title-wrapper-1">
+    <div class="landing-title">
+            <h1 class="cover-heading">We are the pioneer of driving food sharing culture</h1>
+            <p class="lead">Alpha coming soon</p>
+  </div>
+</div>    
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+<div class="title-wrapper-2">
+    <div class="signup-title">            
+            <h2 class="cover-heading">Sign up now</h2>
+            <p class="lead">for us to share with you the latest development of our food sharing platform</p>
+  </div>
+</div>
+<div class="input-group">
+    <div class="form-group">
+      <%= form_for(@landingpage) do |f| %>
+      <%= f.email_field :email, placeholder: "example@example.com" %>
+      <%= f.submit "Sign up", class: "btn btn-default" %>
+      <% end %>
+   </div>
+</div>   
